@@ -14,3 +14,33 @@ The **Library Management System** is a C# .NET 8.0 application designed to strea
 - **Database:** SQLite (with Entity Framework 6)  
 - **Architecture:** MVC with a Service Layer  
 - **UI:** WinForms  
+
+## Installation & Setup  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/yourusername/LibraryManagementSystem.git
+   cd LibraryManagementSystem
+   ```
+2. Open the solution in Visual Studio.
+3. Restore dependencies using NuGet Package Manager.
+4. Apply database migrations:
+```sh
+dotnet ef database update
+```
+5. Build and run the application in Visual Studio.
+
+## Usage
+1. **Login**:  
+   - Use Admin credentials for access to all functionalities (Username:admin|Password:admin123).  
+   - Members and Librarians have limited access.  
+2. **Manage Books and Reservations**:  
+   - Navigate to the books or reservations section to add, update, or delete them.  
+   - Use filters to sort and find specific items quickly.   
+
+## Contribution & Version Control
+* Follows Git best practices using Git branching for features and bug fixes.
+* Pull Requests are required before merging changes into the main branch.
+* Uses semantic versioning for releases.
+
+## License
+This project is licensed under the MIT License.
