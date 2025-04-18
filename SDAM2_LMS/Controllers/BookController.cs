@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SDAM2_LMS.ErrorLog;
+using SDAM2_LMS.Models.ErrorLogs;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Entity;
 using SDAM2_LMS.Models.Services;

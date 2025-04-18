@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace SDAM2_LMS.ErrorLog
+namespace SDAM2_LMS.Models.ErrorLogs
 {
     internal class WriteErrorLog
     {
         public WriteErrorLog(Exception exception)
         {
-            this.WriteToLogFile(exception);
+            WriteToLogFile(exception);
         }
 
         public void WriteToLogFile(Exception e)

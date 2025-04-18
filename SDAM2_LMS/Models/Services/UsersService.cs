@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SDAM2_LMS.ErrorLog;
+using SDAM2_LMS.Models.ErrorLogs;
 using SDAM2_LMS.Models.Data;
 using SQLitePCL;
 using System;
