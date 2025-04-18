@@ -43,7 +43,9 @@ namespace SDAM2_LMS
         {
             if (MessageBox.Show("Are you sure you want to Exit?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                Application.Exit();
+                _profileController.LogOutUser();
+                this.Hide();
+                Application.Restart();
             }
         }
 

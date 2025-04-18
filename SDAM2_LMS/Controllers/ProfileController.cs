@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
-using SDAM2_LMS.ErrorLog;
+using SDAM2_LMS.Models.ErrorLogs;
 using System.Net.Mail;
 
 namespace SDAM2_LMS.Controllers
@@ -113,6 +113,11 @@ namespace SDAM2_LMS.Controllers
                 MessageBox.Show($"Could not reset password. An Unexpected Error occurred. Check logs for more details. \nError:\n {ex}");
                 return false;
             }
+        }
+
+        public void LogOutUser()
+        {
+            _accountService.Logout();
         }
     }
 }
