@@ -154,6 +154,7 @@ namespace SDAM2_LMS.Controllers
             }
             
         }
+
         public static bool IsValidEmail(string email)
         {
             try

@@ -114,5 +114,10 @@ namespace SDAM2_LMS.Controllers
                 return false;
             }
         }
+
+        public void LogOutUser()
+        {
+            _accountService.Logout();
+        }
     }
 }
