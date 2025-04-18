@@ -122,10 +122,10 @@
             Controls.Add(textBoxUsername);
             Controls.Add(lbl2);
             Controls.Add(lbl1);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Margin = new Padding(2, 1, 2, 1);
             Name = "Login";
-            Text = "LoginPage";
+            Text = "Login Page";
             ResumeLayout(false);
             PerformLayout();
         }
