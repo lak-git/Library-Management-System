@@ -18,8 +18,8 @@ The **Library Management System** is a C# .NET 8.0 application designed to strea
 ## Installation & Setup  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/yourusername/LibraryManagementSystem.git
-   cd LibraryManagementSystem
+   git clone https://github.com/lak-git/Library-Management-System.git
+   cd Library-Management-System
    ```
 2. Open the solution in Visual Studio.
 3. Restore dependencies using NuGet Package Manager.
